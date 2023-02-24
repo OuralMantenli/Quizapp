@@ -1,0 +1,84 @@
+.text-center {
+    text-align: center;
+}
+
+body{
+    background-color: #fefaef !important;
+}
+.container {
+    min-height: 100vh;
+    background-color: #fefaef !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-fluid img {
+    width: 50px;
+}
+
+.quiz-card {
+    width: 30rem;
+    
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bg-success, .bg-danger {
+    color: white;
+}
+
+.progress {
+    border-radius: 0 !important;
+    margin-top: 12px;
+}
+
+.progress-bar{
+    background-color: #9e8161 !important;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.main-card {
+   width: 30rem; 
+}
+
+.card-img {
+    height: 50vh;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.card-img-top {
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: rgba(205, 177, 131, 0.3) !important;
+}
+
+.btn {
+    background-color: rgb(205, 177, 131) !important;
+    color: white !important;
+}
+
+.btn:hover {
+    background-color: rgba(205, 177, 131, 0.8) !important;
+}
